@@ -1,0 +1,660 @@
+:root{
+    --blue: #0088FF;
+    --purple: #AB1BED;
+    --escuro: #180A1C;
+    --verde: #02C372;
+
+}
+
+
+
+
+
+
+.opacity-100{
+    opacity: 100%!important;
+}
+
+.gap100{
+    padding: 70px 25px;
+}
+
+
+.bg-escuro{
+    background: var(--escuro)!important;
+}
+
+.bg-degrade{
+    background: linear-gradient(#030407,#030407,#030407,#030407,#030407,#030407, #2C1C56,  #4644C2);
+}
+
+.bg-roxo{
+   background:  #1F072B;
+}
+
+.bg-azul{
+    background: #0F122C;
+
+}
+
+.bg-verde{
+    background: #0E181E;
+
+}
+
+.bg-escuroplus{
+    background: #100515;
+}
+
+*{
+    font-family: 'Archivo', sans-serif;  
+}
+i{
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+   
+}
+
+.bg-image{
+    background-image: url(background5.jpeg);
+    background-size: cover;
+
+}
+
+body{
+    background: #100515 !important;
+}
+
+.btn-action{
+    color: #ffffff;
+    
+}
+
+.container a,
+.container a:link,
+.container a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.container-btn{
+    border-top: solid 0.4px #ffffff;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*-----HERO CAROUSEL----*/
+
+#carousel .carousel-item.vra {
+    background-image: url("https://preview.redd.it/acfcfegk8mv71.png?width=1920&format=png&auto=webp&v=enabled&s=1aadd33db55f9ad2b3c230346b360e1ce50ce09f");
+  }
+  
+  #carousel .carousel-item.sea {
+    background-image: url("https://preview.redd.it/acfcfegk8mv71.png?width=1920&format=png&auto=webp&v=enabled&s=1aadd33db55f9ad2b3c230346b360e1ce50ce09f");
+  }
+  
+  #carousel .carousel-item.river {
+    background-image: url("https://preview.redd.it/acfcfegk8mv71.png?width=1920&format=png&auto=webp&v=enabled&s=1aadd33db55f9ad2b3c230346b360e1ce50ce09f");
+  }
+  
+  #carousel .carousel-item {
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+  
+  #carousel .carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  }
+  
+  #carousel .carousel-item .caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  
+  #carousel .caption h2 {
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  
+  #carousel .caption p {
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+  }
+  
+  #carousel .caption a {
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+  }
+  
+  /* Button */
+  .delicious-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    border-left: 3px solid var(--blue);
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 58px;
+    font-weight: 600;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-transform: capitalize;
+    background-color: var(--blue);
+  }
+  
+  .delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #D70C7C;
+    border-color:#D70C7C;
+  }
+
+
+  /*-------ABOUR CARDS------*/
+
+  .card-roxo{
+    border: none !important;
+    border-top: 4px solid var(--purple)!important;
+   
+}
+.card-azul{
+    border: none !important;
+    border-top: 4px solid var(--blue)!important;
+   
+}
+.card-verde{
+    border: none !important;
+    border-top: 4px solid var(--verde)!important;
+
+   
+}
+
+.container-btn-roxo,
+.container-btn-azul,
+.container-btn-verde{
+    border-top: solid 3px rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+}
+
+.container-btn-roxo a:hover{
+    text-decoration: none;
+    color: var(--purple);
+   
+}
+.container-btn-azul a:hover{
+    text-decoration: none;
+    color: var(--blue);
+   
+}
+.container-btn-verde a:hover{
+    text-decoration: none;
+    color: var(--verde);
+   
+}
+
+/*---OUR COMMUNITY----*/
+ .row-community .card{
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,.01);
+    padding: 20px 10px;
+    
+
+ }
+
+ .card-box a{
+    font-size: 20px;
+ }
+
+ .card-box a:hover{
+    color: var(--blue) !important;
+ }
+
+
+ /*---FOOTER-----*/
+
+ .footer{
+    border-top: solid 3px rgba(255, 255, 255, 0.1);
+ }
+
+
+
+ /*------- ESPORTS PAGE ----------*/
+
+ .img-esports{
+    padding-top: 70px;
+    width: 250px;
+ }
+
+ .bg-esports{
+    background-image:  url(esportsdark.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+
+
+ .main-esports span{
+    border-bottom:solid 6px #AB1BED;
+ }
+
+a .btn-rosa{
+    border: none;
+    background-color: #AB1BED;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.main-esports a .btn-rosa{
+   margin-top: 10px;
+   margin-bottom: 30px;
+   margin-left: 50px;
+}
+
+.btn-tournament{
+    border: solid 3px rgba(255, 255, 255, 0.1);
+    background: transparent;
+    width: 350px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.btn-tournament:hover{
+    border: solid 3px var(--purple);
+   
+}
+
+.btn-tournament:active,
+.btn-tournament:focus{
+    border: solid 3px var(--purple);
+
+}
+
+.a-tournament span{
+    border-bottom: solid 1px white;
+}
+
+.col-pequena-xs{
+    display: none;
+}
+
+.container-howitwork{
+    margin-top: 90px;
+    border-top: solid 5px rgba(255, 255, 255, 0.1) ;
+    padding-top: 30px;
+}
+
+.container-partership{
+  
+    border-top: solid 5px rgba(255, 255, 255, 0.1) ;
+    padding-top: 20px;
+
+}
+
+
+@media only screen and (max-width:768px){
+     
+    .btn-tournament{
+      
+        width: 250px;
+       
+    }
+
+    .instruction-desc{
+        display: none;
+    }
+
+    .col-esquerda{
+        display: none;
+    }
+
+    .col-pequena-xs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+   .row-xs-tournament{
+    padding: 0 30px;
+   
+   }
+
+   .como-funciona{
+    height: 200px;
+   
+}
+
+   .como-funciona p{
+    font-size: 14px;
+   
+}
+
+   
+
+}
+
+
+/*-----PARTNERSHIP-------*/
+
+.img-partner{
+ 
+  margin-top: 20px;
+ 
+}
+
+.container-partership .text-endit{
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 30px;
+    color: rgba(244, 229, 229, 0.755);
+}
+
+
+/*-----resource-----*/
+.container-resource{
+    margin-top: 90px;
+    border-top: solid 5px rgba(255, 255, 255, 0.1) ;
+    padding-top: 20px;
+}
+
+.btn-more{
+    background-color: transparent;
+    border: none!important;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-more:focus,
+.btn-more:active{
+    outline: none!important;
+}
+
+
+
+.card-box{
+    border: solid 3px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    height: 230px;
+   
+}
+
+.card-body {
+    border-top: solid 3px rgba(255, 255, 255, 0.1);
+}
+
+.card-body,
+.card-header{
+    padding: 0px 20px;
+}
+
+.btn:focus,.btn:active {
+    outline: 0;
+    outline-color: transparent;
+    outline-width: 0;
+    outline-style: none;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
+ }
+
+ .background-verasity{
+    background: linear-gradient(#030407,#030407,#030407,#030407,#030407,#030407, #2C1C56,  #4644C2);
+ }
+
+ .container-ex{
+   padding: 30px 80px;
+ }
+
+ .card-ex{
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 20px;
+   height: 180px;
+ }
+
+ /*----------------token---------------*/
+ /*----------------token---------------*/
+ /*----------------token---------------*/
+ /*----------------token---------------*/
+ /*----------------token---------------*/
+
+ .col-wallet p{
+    line-height: 32px;
+   
+ }
+
+ .col-wallet a{
+    font-size: 18px;
+ }
+
+ .btn-verawallet{
+    padding: 10px 30px; 
+    border: none;
+    border-radius: 10px;
+    background: var(--blue);
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    
+ }
+
+ .btn-extanges{
+    border: solid 2px white;
+    border-radius: 10px;
+    background: transparent;
+    padding: 8px 28px; 
+    color: white;
+    cursor: pointer;
+ }
+
+ .img-card{
+    width: 160%;
+ }
+
+ .p-small{
+    font-size: 14px;
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+ }
+
+ .p-small{
+    font-size: 14px;
+   
+}
+
+ span .billion{
+    font-size: 6px !important;
+ }
+
+ .col-box{
+    border: solid 2px rgba(255, 255, 255, 0.1);
+   
+ }
+
+ .col-card{
+   
+    padding: 10px;
+   
+ }
+
+ .col-card p{
+  
+    padding-top: 5px;
+    margin-top:10px;
+
+ }
+
+ .col-card a{
+    cursor: pointer;
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    padding:10px;
+    
+ }
+
+ .col-card a:hover{
+    cursor: pointer;
+    border: solid 2px var(--blue);
+    
+    
+ }
+
+ .col-card a button:hover{
+    color: var(--blue);
+ }
+
+
+  /*----------------ADTECH---------------*/
+   /*----------------ADTECH---------------*/
+    /*----------------ADTECH---------------*/
+     /*----------------ADTECH---------------*/
+
+.bg-adtech{
+    background-image: url(adtech-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-grey{
+    color: rgb(202, 196, 196);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.btn-verde{
+    background-color: var(--verde);
+}
+
+.digital{
+    max-width: 300px;
+    text-align: center;
+    margin-left: 30%;
+    background-image: linear-gradient(to bottom, #0c2752 0%, #211227 100%);
+    
+    padding: 50px;
+}
+
+
+
+.btn-adversise{
+    background: transparent;
+    border-radius: 10px;
+    border:  solid 2px white;
+    padding:10px 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.bullet{
+    padding-left: 34px;
+    background: url(bullet.png) no-repeat left top 2px;
+    background-size: 18px 21.1px;
+}
+
+.bg-nfts{
+    background-image: url(nft-background.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+    
+
+}
+
+@media only screen and (max-width:1145px){
+    .bg-nfts{
+       background-size:50%;
+    }
+}
+@media only screen and (max-width:968px){
+    .bg-nfts{
+       background-size:40%;
+    }
+}
+@media only screen and (max-width:768px){
+    .bg-nfts{
+       background-image: none;
+    }
+
+    .col-flex{
+        flex:100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+    }
+
+    .col-flex h1,
+   .col-flex p{
+    text-align: center;
+   }
+
+   .col-flex a .btn{
+    display:none;
+   }
+
+   
+}
+
+.bullet-blue{
+    padding-left: 34px;
+    background: url(bullet-blue.png) no-repeat left top 2px;
+    background-size: 18px 21.1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
